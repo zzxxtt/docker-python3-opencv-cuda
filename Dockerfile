@@ -29,7 +29,7 @@ RUN wget https://github.com/opencv/opencv/archive/3.3.0.zip \
 && cd /opencv-3.3.0/cmake_binary \
 && cmake -DBUILD_TIFF=ON \
   -DBUILD_opencv_java=OFF \
-  -DWITH_CUDA=OFF \
+  -DWITH_CUDA=ON \
   -DENABLE_AVX=ON \
   -DWITH_OPENGL=ON \
   -DWITH_OPENCL=ON \
